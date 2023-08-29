@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+}
+.calc-body {
+  width: 275px;
+  margin: auto;
+  min-height: 400px;
+  box-shadow: 0 8px 50px -7px black;
+  background: #3a4655;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/*Calculator Display Screen*/
+.calc-screen {
+  padding: 1rem;
+}
+.calc-operation {
+  font-size: 1.3rem;
+  text-align: right;
+  color: #fff;
+  background-color: #000000;
+  padding-bottom: 0.5rem;
+  width: 240px;
+  border-radius: 9px;
+  height: 30px;
+}
+#calc-typed {
+  font-size: 2rem;
+  text-align: right;
+  color: #fff;
+}
+/*Calculator Buttons*/
+.calc-button-row {
+  display: table;
+}
+.button {
+  width: 120px;
+  padding-left: 20px;
+  background: #1958ab;
+  color: #fff;
+
+  height: 45px;
+  font-size: 1.3rem;
+  border: none;
+  border-color: #3c4857;
+  border-width: 1px 1px 0px 0;
+  border-style: solid;
+  border-radius: 6px;
+  cursor: pointer;
+}
+h2 {
+  color: #fff;
+}
+h4 {
+  color: #fff;
+}
+.button:hover {
+  background: #395375;
+}
+.calc-button-row button.ac {
+  color: #ff7665;
+}
+.calc-button-row button.opt {
+  color: #ffbc56;
+}
+/*The border has been managed in every fourth button so that the design will not distract.*/
+.calc-button-row button:nth-child(4n) {
+  border-right: none;
+}
+.calc-button-row button:active {
+  position: relative;
+  top: 1px;
+}
+.calc-button-row button:hover {
+  background: #3e4b5c;
+}
